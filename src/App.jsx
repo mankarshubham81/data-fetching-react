@@ -14,13 +14,22 @@ function App() {
 
   return (
     <>
+      {/* 1 */}
       {/* <FetchMethod/> */}
+
+      {/* 2 */}
       {/* <AsyncAwait/> */}
+      
+      {/* 3 */}
       {/* <AxiosLibrary/> */}
-      {/* <QueryClientProvider client={queryClient}>
-      {/* Your component tree goes here *
+
+      {/* 4 */}
+      {/* <QueryClientProvider client={queryClient}>  
+      comment this line {/* Your component tree goes here *
       <ReactQuery/>
     </QueryClientProvider> */}
+    
+    {/* 5 */}
     <CustomHook/>
     </>
   )
