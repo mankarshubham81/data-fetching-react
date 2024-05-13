@@ -6,6 +6,7 @@ import FetchMethod from './components/FetchMethod'
 import AsyncAwait from './components/AsyncAwait'
 import AxiosLibrary from './components/AxiosLibrary'
 import ReactQuery from './components/ReactQuery'
+import CustomHook from './components/CustomHook';
 
 const queryClient = new QueryClient();
 function App() {
@@ -16,10 +17,11 @@ function App() {
       {/* <FetchMethod/> */}
       {/* <AsyncAwait/> */}
       {/* <AxiosLibrary/> */}
-      <QueryClientProvider client={queryClient}>
-      {/* Your component tree goes here */}
+      {/* <QueryClientProvider client={queryClient}>
+      {/* Your component tree goes here *
       <ReactQuery/>
-    </QueryClientProvider>
+    </QueryClientProvider> */}
+    <CustomHook/>
     </>
   )
 }
